@@ -42,7 +42,7 @@ if (op1 == 2):
                 if(op7==1):
                   print("Caníbales hambrientos, GAME OVER")
                 elif(op7==2):
-                  print("HAS GANADO! :D")
+                  print("HAS GANADO! :D Felicidades")
                 else:
                   print("Opcion invalida")
 
