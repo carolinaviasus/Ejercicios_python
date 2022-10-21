@@ -1,0 +1,84 @@
+print("Bienvenido a la isla. Tu mision sera encontrar el tesoro")
+print("Sigue las instrucciones y seleciona una opcion")
+print("¿Derecha(1) o izquierda(2)? ")
+op1=int(input())
+if (op1 == 2):
+   print("¿Nadar(1) o Caminar(2)")
+   op2=int(input())
+   if(op2 == 2):
+     print("¿Cuál Paleta?")
+     print("Rojo(1), Lila(2), Azul(3), otro color(4)")
+     op3=int(input())
+     if(op3==1):
+       print("Estas quemado, Game over")
+     elif(op3==2):
+       print("¿Que personaje elijes?")
+       persona=1
+       while(persona>=1):
+          print("Niña(1), Oso tierno(2), Ladron(3), Persona comun(4)")
+          op4= int(input())
+          if(op4==1):
+           print("Asesinato, Game Over")
+           persona -=1
+          elif(op4==2):
+           print("Muerte Fulminante, Game over")
+           persona -=1
+          elif(op4==3):
+           print("Desean ir en:")
+           print("Bicicleta(1), Moto(2), Caminando(3)")
+           op5=int(input())
+           if(op5==1):
+              print("No pueden ir los dos,Game over")
+           elif(op5==2):
+              print("¿Qué lugar es mas seguro para esconderse?")
+              print("Estacion de policia(1), Volcán nevado(2)")
+              op6= int(input())
+              if(op6==1):
+                print("Han sido capturados, Game over")
+              elif(op6==2):
+                print("Llego ayuda desean irse con:")
+                print("Personas del comun(1), Helicoptero(2)")
+                op7=int(input())
+                if(op7==1):
+                  print("Caníbales hambrientos, GAME OVER")
+                elif(op7==2):
+                  print("HAS GANADO! :D")
+                else:
+                  print("Opcion invalida")
+
+              else:
+                print("opcion invalida")
+                
+
+           elif(op5==3):
+              print("Han sido devorados por Lobos!, Game over")
+           else:
+              print("Opcion invalida")
+           persona -=1
+          elif(op4==4):
+           print("Tienes una nueva oportunidad")
+           
+           
+          else:
+            print("Opcion invalida")
+            persona -=1
+            
+          
+
+       
+
+
+
+       
+     elif(op3==3):
+        print("Devorado por bestias. Game over")
+        
+     else:
+        print("Game over")
+
+   else:    
+       print("Devorado por tiburones")
+    
+else:
+  print("Caíste en un agujero.GAME OVER")
+  
