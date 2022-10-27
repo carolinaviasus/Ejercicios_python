@@ -1,0 +1,16 @@
+print("Esta es la serie de Fibonachi")
+print("Hasta que numero deseas ver la serie")
+n=int(input())
+inicio=1
+numero1=0
+numero2=1
+suma=0
+
+while(inicio<=n):
+  
+  print(numero2)
+  
+  suma=numero1+numero2
+  numero1=numero2
+  numero2=suma
+  inicio=inicio+1
